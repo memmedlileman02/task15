@@ -122,12 +122,13 @@ let groups = [
        qiymet:91
    }
 ]
-// console.log((groups[0].qiymet + groups[1].qiymet +groups[2].qiymet+groups[3].qiymet)/4);
-console.log(groups);
-const bal = groups.map((t) =>t.bal );
-let ortalama =0;
-bal .forEach(y => {ortalama +=y})
-console.log(`ortalama+ ${ortalama/ gropus.length}`);
+console.log((groups[0].qiymet + groups[1].qiymet +groups[2].qiymet+groups[3].qiymet)/4);
+// console.log(groups);
+// const bal = groups.map((t) =>t.bal );
+// let ortalama =0;
+// bal .forEach(y => {ortalama +=y})
+// console.log(`ortalama+ ${ortalama/ gropus.length}`);
+
 // for ( let i = 0 ; i <= students.length; i++){
 //       if( students[i].qiymet <= 90){
 //         students.map((st) => {
