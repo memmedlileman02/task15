@@ -70,5 +70,10 @@ let average = cem/students.length;
 console.log(average);
 
 
+const student =students.map((st)=>{
+    if( st.bal<90){
+        
+    }
+})
 
-students.filter((student))
+alert(`${students.ad}  ${students.soyad} neticeni yukselt`)
